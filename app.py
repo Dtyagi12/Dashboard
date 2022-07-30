@@ -5,7 +5,7 @@ import plotly.express as px
 
 vehicle=pd.read_csv("vehicle_list.csv")
 al = pd.read_csv("AL.csv")
-tata = pd.read_csv("tata.csv")
+tata = pd.read_csv("Tata.csv")
 
 col1, col2 = st.columns([0.7, 0.3])
 with col1:
